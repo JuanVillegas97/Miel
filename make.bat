@@ -1,0 +1,1 @@
+gcc functions.c Miel.c C:\MinGW\x86_64-w64-mingw32\include\PDCurses\wincon\pdcurses.a -o a
