@@ -1,15 +1,13 @@
 #include <PDcurses/curses.h>
 #include "functions.h"
-
 int main()
 {
-
  initscr();
 
- cbreak();
  noecho();
- keypad(stdscr, TRUE);
+ cbreak();
  curs_set(0);
+ keypad(stdscr, TRUE);
 
  printWindows();
 
