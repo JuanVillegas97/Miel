@@ -3,12 +3,8 @@
 int main()
 {
  initscr();
-
- noecho();
- cbreak();
  curs_set(0);
- keypad(stdscr, TRUE);
-
+ keypad(stdscr, true);
  printWindows();
 
  int c = getch();
